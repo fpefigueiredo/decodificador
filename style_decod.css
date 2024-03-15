@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@150&display=swap');
+
+:root {
+    --cor-primaria-fundo: #F3F5FC;
+    --cor-secundaria-caixatexto: #FFFFFF;
+    --cor-botao-cripto: #0A3871;
+    --cor-botao-descripto: #D8DFE8;
+
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:var(--cor-primaria-fundo);
+}
+
+.cabecalho {
+    padding: 1% 0% 0% 0%;
+    gap: 40px;
+    align-items:initial; 
+    justify-content: space-between; 
+}
+
+.apresentacao {
+    padding: 0% 10%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo_texto {
+    font-size:1rem;
+    font-family:var(--fonte-primaria);
+    color: #0A3871;
+}
+
+.visual_input_texto {
+    width: 39.19rem;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-align: left;
+    background-color:var(--cor-primaria-fundo);
+    font-size:2rem;
+    font-family:var(--fonte-primaria);
+    color: #0A3871;
+    border: none;
+    resize: none;
+    gap: 80px; 
+}
+
+.apresentacao_aviso {
+    padding: 5%;
+    align-items:center;
+    text-align: left;
+    justify-content: space-between;
+    font-family: var(--fonte-primaria);
+    font-size: 0.75rem;
+    color: #495057;
+}
+
+.rodape {
+    padding: 0.8%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-align: center;
+    color: var(--cor-botao-descripto);
+    background-color: var(--cor-botao-cripto);
+    font-size: 0.7rem;
+    font-family: var(--fonte-primaria);
+}
